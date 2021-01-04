@@ -4,7 +4,7 @@ class linear_regression:
     '''
       Prevendo o peso do cérebro considerando o tamanho da cabeça de seres humanos utilizando Regressão Linear Simples.
     '''
-    dados = pd.read_csv('dados/pesos2.csv')
+    dados = pd.read_csv('pesos2.csv')
     
     #Separando os dados
     X = dados['Head Size'].values
