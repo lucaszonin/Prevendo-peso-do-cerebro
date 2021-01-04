@@ -1,6 +1,6 @@
 import pandas as pd
 
-class linear_regression:
+class LinearRegression:
     '''
       Prevendo o peso do cérebro considerando o tamanho da cabeça de seres humanos utilizando Regressão Linear Simples.
     '''
@@ -44,4 +44,4 @@ class linear_regression:
 
 if __name__ == "__main__":
     
-    modelo  = linear_regression()
+    model = LinearRegression()
